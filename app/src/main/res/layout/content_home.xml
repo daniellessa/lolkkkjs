@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <RelativeLayout
+        android:id="@+id/current_day_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="10dp">
+
+        <TextView
+            android:id="@+id/week_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:text="Month"
+            />
+
+        <TextView
+            android:id="@+id/number_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Week_day"/>
+
+        <TextView
+            android:id="@+id/month_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:text="Month"
+            />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/current_day_label"/>
+
+
+</RelativeLayout>

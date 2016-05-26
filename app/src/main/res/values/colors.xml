@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#AD153A</color>
+    <color name="colorPrimary">#CB2643</color>
+    <color name="colorPrimaryLight">#FF544B</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="colorAccent">#AD153A</color>
+    <color name="textPrimary">#000000</color>
+    <color name="textEspecial">#00195b</color>
+    <color name="textSecondary">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorItemFree">#00BCD4</color>
+    <color name="red_time">#FFCDD2</color>
+    <color name="green">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#D32F2F</color>
+    <color name="blue">#3F51B5</color>
+    <color name="orange">#FF5722</color>
+</resources>

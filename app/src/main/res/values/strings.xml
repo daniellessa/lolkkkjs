@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Salão 7 Professional</string>
+    <string name="facebook_app_id">475394335994139</string>
+    <string name="search_hint">Pesquisar</string>
+    <string name="title_activity_home">Salão 7</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="wait">Aguarde...</string>
+    <string name="error">Erro</string>
+    <string name="invalid_login_fields">Usuário e/ou senha inválidos.</string>
+    <string name="ok">Ok</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+
+</resources>
